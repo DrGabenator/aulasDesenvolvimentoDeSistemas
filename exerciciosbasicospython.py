@@ -79,9 +79,9 @@ else:
 
 senha1 = input('Digite uma senha: ')
 
-senha2 = input('Confirme a sua senha: ')
+senhaConfirmada = input('Confirme a sua senha: ')
 
-if(senha1 == senha2):
+if(senha1 == senhaConfirmada):
     print('Acesso permitido!')
 else:
     print('Acesso negado!')
